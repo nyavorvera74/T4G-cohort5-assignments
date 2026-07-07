@@ -1,0 +1,19 @@
+When I type google.com and press Enter, my browser asks the DNS to find Google’s IP address. It then connects to Google’s server, sends a request for the website, and the server sends the webpage back. My browser displays the webpage on the screen.
+A client is a device or application that asks for information from a server while a server is a computer that stores information and sends it to the client when requested. An example of a client is Google Chrome browser and a server is Google’s web server
+DNS (Domain Name System) changes website names like google.com into IP addresses that computers understand and we need  DNS because it is easier to remember website names than long numbers. 
+A firewall protects a network by blocking harmful or unauthorized traffic. A load balancer shares incoming traffic among different servers so that no single server becomes overloaded. The difference is that A firewall provides security, while a load balancer improves speed and performance
+A web server sends website files like HTML, CSS, and images to users. An application server runs the backend code, processes requests, and communicates with the database. A backend developer works more with the application server because it handles the application’s logic and connects to the database.
+The client does not communicate directly with the database because it would not be secure. The application server checks if the request is valid before accessing the database. The Benefits are it Protects the database, Keeps user information safe, Checks usernames and passwords and Makes the application more secure.
+A university department page is usually static because the information is mostly the same for everyone. An MTN MoMo account page is dynamic because it shows personal information like your balance and transactions, which are different for every user.
+Frontend is the part of the website users can see and interact with. Backend is the part that works behind the scenes. It processes requests, checks passwords, and communicates with the database. The backend checks the password against the database because it is more secure and protects users’ information.
+
+PART 2
+Client(Sends a request) -->DNS(Finds the website's IP address)   -->Firewall(Checks and filters the request)  -->Load Balancer
+(Sends the request to an available server)  -->Web Server(Receives the request)  -->Application Ser(Processes the request)  -->Database(Stores and returns data)-->Application Server(Prepares the response)-->Web Server(Sends the response)  -->Client(Displays the webpage)
+
+PART 3
+Backend developers use the command line (CLI) to create files and folders, run programs, install software, use Git, manage servers, and troubleshoot problems. It helps them work faster and more efficiently.
+An absolute path is the full path to a file or folder starting from the root directory. An example is answers.txt
+I would explain that File Explorer and Finder are useful, but the command line is faster for many tasks. It allows developers to manage files, use Git, run programs, and work on remote servers more efficiently. Many software development tools also require using the command line.
+The ~ (tilde) symbol represents the home directory of the current user.
+The $ symbol is the terminal prompt. It shows that the terminal is ready for you to type a command. Example ~/Documents$
